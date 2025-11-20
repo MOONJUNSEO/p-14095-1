@@ -20,5 +20,5 @@ public class Answer {
     private Question question;
 
     @Column(columnDefinition = "TEXT")
-    private String answer;
+    private String content;
 }
